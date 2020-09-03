@@ -56,14 +56,38 @@ body {
     line-height:1.5;
     font-family: 'Roboto Mono', monospace;
 }
-#plan {
+a {
+    text-decoration:none;
+    color:grey;
+}
+.plan {
     background:#FF764E;
+    margin:1% 8%;
+    border-radius: 5%;
+    width: 8%;
+    text-align: center;
+    color:white;
+    vertical-align: auto;
+    
 }
-#learn {
+.learn {
     background:#5ED3EB; 
+    border-radius: 5%;
+    text-align: center;
+    color:white;
+    vertical-align: auto;
+    margin: 1% 8%; 
+    width: 25%;
+
 }
-#get {
-    background:#FFCD69
+.get {
+    background:#FFCD69;
+    margin: 1% 8%;
+    border-radius: 5%;
+    widows: 8%;
+    text-align: center;
+    color:white;
+    vertical-align: auto;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
@@ -87,6 +111,11 @@ footer {
     width:25%;
     text-align:center;
     margin:auto;
+}
+#footer-img {
+    width: auto;
+    object-fit: contain;
+    height: 25%;
 }
 
 /* asdkf */
